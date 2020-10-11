@@ -3,7 +3,7 @@
 /* ============================================= */
 
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: $font-family;
     color: #777;
     box-sizing: border-box;
   }
@@ -27,18 +27,18 @@
   }
   
   .headline-secondary {
-    font-weight: 300;
+    font-weight: $font-light;
     color: #777;
   }
   
   .link {
     color: #51ddfc;
-    font-weight: 700;
+    font-weight: $font-heavy;
   }
   
   .blockquote {
     font-size: 1.5em;
-    font-weight: 300;
+    font-weight: $font-light;
     font-style: italic;
     margin-left: 20px;
     padding-left: 20px;
